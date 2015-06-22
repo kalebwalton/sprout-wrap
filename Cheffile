@@ -2,6 +2,9 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
+cookbook 'sprout-wrap',
+  :github => 'kalebwalton/sprout-wrap'
+
 cookbook 'sprout-rbenv',
   :github => 'pivotal-sprout/sprout-rbenv'
 

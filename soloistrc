@@ -11,6 +11,7 @@ recipes:
 - sprout-osx-settings::dock_preferences
 - sprout-terminal
 - sprout-ssh::known_hosts_github
+- sprout-wrap::tmux_settings
 
 # development (general)
 - sprout-base::workspace_directory
@@ -47,7 +48,7 @@ node_attributes:
           name: sprout-wrap
           url: https://github.com/pivotal-sprout/sprout-wrap.git
       global_config:
-        - 'credential.helper': osxkeychain
+        'credential.helper': osxkeychain
     terminal:
       default_profile: 'Pro'
     settings:
