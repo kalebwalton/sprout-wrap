@@ -19,21 +19,12 @@ recipes:
 - sprout-git::projects
 - sprout-git::git_scripts
 
-# development (rails)
-# - sprout-rbenv
-# - sprout-ruby
-- sprout-mysql
-# - sprout-postgresql
-
 # apps
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::flycut
-# - sprout-osx-apps::shiftit
 
 # apps (editors)
 - sprout-osx-apps::textmate_preferences
-# - sprout-osx-apps::macvim
-# - sprout-rubymine
 
 node_attributes:
   sprout:
@@ -60,10 +51,10 @@ node_attributes:
     settings:
       clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
-      orientation: 'left'
+      orientation: 'bottom'
       auto_hide: true
-      clear_apps: true
-      tile_size: 35
+      clear_apps: false
+      tile_size: 48
       magnification: false
     homebrew:
       formulae:
@@ -72,15 +63,13 @@ node_attributes:
         - chromedriver
         - imagemagick
         - node
-        # - pstree # Skip until download url is fixed: https://github.com/Homebrew/homebrew/pull/35135
+        - pstree 
         - qt
         - ssh-copy-id
         - tmux
         - tree
         - watch
         - wget
-        # - rbenv-binstubs # No need
-        # - rbenv-gem-rehash # No need
         - reattach-to-user-namespace
       casks:
         - ccmenu
@@ -91,8 +80,11 @@ node_attributes:
         - google-drive
         - google-hangouts
         - skype
+        - spectacle
+        - spotify
         - textmate
         - vagrant
         - virtualbox
         - xquartz
         - xscope
+
