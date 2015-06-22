@@ -46,6 +46,8 @@ node_attributes:
         -
           name: sprout-wrap
           url: https://github.com/pivotal-sprout/sprout-wrap.git
+      global_config:
+        - 'credential.helper': osxkeychain
     terminal:
       default_profile: 'Pro'
     settings:
