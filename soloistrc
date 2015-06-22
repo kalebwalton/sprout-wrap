@@ -20,20 +20,20 @@ recipes:
 - sprout-git::git_scripts
 
 # development (rails)
-- sprout-rbenv
-- sprout-ruby
+# - sprout-rbenv
+# - sprout-ruby
 - sprout-mysql
-- sprout-postgresql
+# - sprout-postgresql
 
 # apps
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::flycut
-- sprout-osx-apps::shiftit
+# - sprout-osx-apps::shiftit
 
 # apps (editors)
 - sprout-osx-apps::textmate_preferences
-- sprout-osx-apps::macvim
-- sprout-rubymine
+# - sprout-osx-apps::macvim
+# - sprout-rubymine
 
 node_attributes:
   sprout:
@@ -79,8 +79,9 @@ node_attributes:
         - tree
         - watch
         - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
+        # - rbenv-binstubs # No need
+        # - rbenv-gem-rehash # No need
+        - reattach-to-user-namespace
       casks:
         - ccmenu
         - firefox
