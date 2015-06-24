@@ -7,6 +7,15 @@ SITE
       build-essential (>= 2.1.2)
 
 GIT
+  remote: https://github.com/kalebwalton/sprout-wrap
+  ref: master
+  sha: 2a2903490188b30d858d7270737b5871a17c8e43
+  specs:
+    sprout-wrap (0.1.0)
+      osx (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: https://github.com/pivotal-sprout/osx
   ref: master
   sha: 70ef029c8b25dbab5be2fb328b987297c05936db
@@ -32,9 +41,9 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-homebrew
   ref: master
-  sha: 67a6a6ba55d9d8e933645ae7fd1331b85b05d1d0
+  sha: a2449dcc434ecd325abc150c75c39b7f6979f413
   specs:
-    sprout-homebrew (0.1.0)
+    sprout-homebrew (0.2.0)
       homebrew (>= 1.5.4)
 
 GIT
@@ -49,7 +58,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-apps
   ref: master
-  sha: 1407e20d95f5b859fdaddd03d30d578e3c061309
+  sha: 3680e8b7a05989605c58f440e45304a4feea1bd0
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -60,7 +69,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-settings
   ref: master
-  sha: 2470797e8997688b731928cc78f48e51c3562803
+  sha: fa7f68da19bbb9cc45da22020d9043fcfc7ee73e
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -79,7 +88,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-rbenv
   ref: master
-  sha: e361e7c871d40ecb2649a095a8f8282b5c4f4e7b
+  sha: 7436b84ac159c026961c66b7f96387755f554617
   specs:
     sprout-rbenv (0.1.0)
       homebrew (>= 0.0.0)
@@ -134,4 +143,5 @@ DEPENDENCIES
   sprout-rubymine (>= 0)
   sprout-ssh (>= 0)
   sprout-terminal (>= 0)
+  sprout-wrap (>= 0)
 
