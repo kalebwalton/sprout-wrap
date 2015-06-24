@@ -28,6 +28,10 @@ recipes:
 - sprout-osx-apps::textmate_preferences
 
 node_attributes:
+  versions:
+    bash_it: master
+  bash_it:
+    theme: iterate
   sprout:
     git:
       domain: pivotallabs.com

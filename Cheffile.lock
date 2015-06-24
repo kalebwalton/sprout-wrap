@@ -7,9 +7,16 @@ SITE
       build-essential (>= 2.1.2)
 
 GIT
+  remote: https://github.com/kalebwalton/sprout-base
+  ref: master
+  sha: 6897d688ed6d72e182bb93bfcfcb7d27ff2d8aae
+  specs:
+    sprout-base (0.2.0)
+
+GIT
   remote: https://github.com/kalebwalton/sprout-wrap
   ref: master
-  sha: 2a2903490188b30d858d7270737b5871a17c8e43
+  sha: 4908e84cca1e4ad613e2bbe7f35eb5fcf1bd8695
   specs:
     sprout-wrap (0.1.0)
       osx (>= 0.0.0)
@@ -21,13 +28,6 @@ GIT
   sha: 70ef029c8b25dbab5be2fb328b987297c05936db
   specs:
     osx (0.1.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-base
-  ref: master
-  sha: cfac611a3515fe52e90d73403036403b487b1c33
-  specs:
-    sprout-base (0.2.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/sprout-git
