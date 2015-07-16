@@ -21,7 +21,7 @@ cookbook 'sprout-base',
   :github => 'kalebwalton/sprout-base'
 
 cookbook 'sprout-osx-apps',
-  :github => 'pivotal-sprout/sprout-osx-apps'
+  :github => 'kalebwalton/sprout-osx-apps'
 
 cookbook 'sprout-osx-settings',
   :github => 'pivotal-sprout/sprout-osx-settings'

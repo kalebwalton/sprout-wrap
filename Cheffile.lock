@@ -3,7 +3,7 @@ SITE
   specs:
     build-essential (2.2.3)
     dmg (2.2.2)
-    homebrew (1.12.0)
+    homebrew (1.13.0)
       build-essential (>= 2.1.2)
 
 GIT
@@ -14,9 +14,20 @@ GIT
     sprout-base (0.2.0)
 
 GIT
+  remote: https://github.com/kalebwalton/sprout-osx-apps
+  ref: master
+  sha: 4d21765dad8085bebe7b255e554fc0a3e696ee61
+  specs:
+    sprout-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 1.6.6)
+      sprout-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+GIT
   remote: https://github.com/kalebwalton/sprout-wrap
   ref: master
-  sha: 4908e84cca1e4ad613e2bbe7f35eb5fcf1bd8695
+  sha: 0621858c53421e1ab1961372d189c6c8f647b545
   specs:
     sprout-wrap (0.1.0)
       osx (>= 0.0.0)
@@ -32,7 +43,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-git
   ref: master
-  sha: f0eeca5b88aff2aaab05a3cc64795bef76198aae
+  sha: 2b74c5630fb96b60d36d363f94b52d2664edcdcc
   specs:
     sprout-git (0.1.1)
       homebrew (>= 0.0.0)
@@ -54,17 +65,6 @@ GIT
     sprout-mysql (0.1.0)
       homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-osx-apps
-  ref: master
-  sha: 3680e8b7a05989605c58f440e45304a4feea1bd0
-  specs:
-    sprout-osx-apps (0.1.0)
-      dmg (>= 0.0.0)
-      homebrew (>= 1.6.6)
-      sprout-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-settings
