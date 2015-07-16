@@ -6,7 +6,7 @@ template "#{node['sprout']['home']}/Library/LaunchAgents/com.mycron.hourly.plist
   action :create_if_missing
 end
 
-execute 'launchctl hourly file'
+execute 'launchctl hourly file' do
   command "launchctl load #{node['sprout']['home']}/Library/LaunchAgents/com.mycron.hourly.plist"
 end
 
@@ -16,6 +16,6 @@ template "#{node['sprout']['home']}/Library/LaunchAgents/com.mycron.daily.plist"
   action :create_if_missing
 end
 
-execute 'launchctl daily file'
+execute 'launchctl daily file' do
   command "launchctl load #{node['sprout']['home']}/Library/LaunchAgents/com.mycron.daily.plist"
 end
